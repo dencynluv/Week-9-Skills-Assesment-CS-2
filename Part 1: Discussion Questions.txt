@@ -1,0 +1,82 @@
+Part 1: Discussion Questions
+
+Recursion
+
+1. In your own words, what is Recursion?
+    
+    Recursion happens when a function calls itself within its own function.
+
+
+2. Why is it necessary to have a Base Case?
+
+    A base case is necessary in order for the function to know its stopping point. 
+
+
+Graphs
+
+1. What is a Graph?
+
+    A graph is similar to a tree in that they contain nodes. However in a graph the nodes are connected through edges and can loop.
+
+
+2. How is a Graph different from a Tree?
+
+    A graph is different from a tree because a graph contain loops/cycles and their relationships can be directed or non-directed. Nodes on a graph are also connected through edges/arcs and can also be adjacent to one another when they share an edge. 
+
+
+3. Give an example of something that would be good to model with a Graph.
+
+    Hackbright Alumni all share a connection through cohorts or Hackbright. A group text shared between friends, connection between countries and cities, flights that connect to different cities. 
+
+
+Performance of Different Data Structures
+
+Fill in the runtimes for the following actions for the table below:
+
+Data Structure                  Index   Search  Add-R   Add-L   Pop-L   Pop-R
+______________________________________________________________________________
+Python List(Array)              O(1)    O(n)    O(1)   O(n)     O(n)    O(1)  
+Linked List                     O(n)    O(n)    O(1)   O(1)     O(1)    O(n)
+Doubly-Linked List              O(n)    O(n)    O(1)   O(1)     O(1)    O(1)  
+Queue (as Array)                X       X       O(1)   X        O(n)    X      
+Queue (as LL or DLL)            X       X       O(1)   X        O(1)    X
+Stack (as Array, LL, or DLL)    X       X       O(1)   X        X       O(1)
+Deque (as DLL)                  X       X       O(1)   O(1)     O(1)    O(1)
+
+Index: Find an item in the structure when you know its position
+Search: Find an item in the structure when you know its data
+Add(R/L): Set a key in set/dictionary or add node to tree
+Pop(R/L): Remove a key or node
+
+
+Fill in Runtime and Memory:
+
+The answers for Dictionary have been provided; you should fill in the rest:
+
+Data Structure          Get     Add     Delete  Iterate Memory
+_______________________________________________________________
+Dictionary (Hash Map)   O(1)    O(1)    O(1)    O(n)    medium
+Set (Hash Map)          O(1)    O(1)    O(1)    O(n)    medium
+Binary Search Tree      O(log n)O(n)    O(n)    O(1)    little         
+Tree                    O(n)    O(1)    O(1)    O(1)    little
+
+Get: Find an item in the structure
+Add: Set a key in set/dictionary or add node to tree
+Delete: Remove a key or node
+Iterate: Find next item in data structure
+Memory: Relative to data, how much memory is used? (Choices: a little, medium, or a lot)
+
+
+
+
+Sorting
+
+Describe in words how the Bubble Sort algorithm works.
+Describe in words how the Merge Sort algorithm works.
+Describe in words how the Quick Sort algorithm works.
+
+
+Git Branching
+
+Give an instance when you would use git branching.
+What is a pull request?
